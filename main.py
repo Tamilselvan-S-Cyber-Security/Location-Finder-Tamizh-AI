@@ -104,8 +104,8 @@ country_codes = pd.DataFrame([
 
 # Page configuration
 st.set_page_config(
-    page_title="Tamizh-AI Finder | S.Tamilselvan",
-    page_icon="📱",
+    page_title="ECP Location Finder",
+    page_icon="🌍",
     layout="wide"
 )
 
@@ -114,7 +114,7 @@ with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Title and description
-st.title("📱 Tamizh-AI Finder | S.Tamilselvan")
+st.title(" 🌍 ECP Location Finder")
 st.markdown("Track mobile numbers and IP addresses to find their approximate locations")
 
 # Initialize session state
