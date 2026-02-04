@@ -8,6 +8,6 @@ phonenumbers
 pillow
 requests
 selenium
-streamlit
+streamlit>=1.23.0
 trafilatura
 webdriver-manager
